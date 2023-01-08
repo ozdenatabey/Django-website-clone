@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Django Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container py-2">
+          <a class="navbar-brand h1 text-light" href="#">Django</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">OVERVIEW</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">DOWNLOAD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">DOCUMENTATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">COMMUNITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">CODE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">ISSUES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">DONATE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR END -->
+
+      <!-- HERO -->
+      <div class="bg-white border-bottom">
+        <div class="container py-5 text-center">
+          <div class="row">
+            <div class="col-sm-6 offset-3 pb-4">
+              <div>
+                <p class="py-4 fs-36">
+                  Django makes it easier to build better web apps more quickly and with less code.
+                </p>
+                <button class="btn btn-success py-3 px-5" type="button">
+                  <h5>Get started with Django</h5>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HERO END -->
+
+      <!-- MAIN -->
+      <main class="container-fluid bg-light">
+        <div class="row">
+          <!-- ARTICLE -->
+          <div class="col-sm-10"></div>
+          <article class="col-sm-8 bg-white py-4">
+            <div class="row">
+              <div class="col-sm-10 offset-1">
+                <h2>Meet Django</h2>
+                <br>
+                <p>Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+
+                <div class="row pt-5">
+                  <div class="col-sm-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class="bi bi-lightning-charge-fill bg-success rounded-circle mb-5" viewBox="3 -2 10 20">
+                      <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z"/>
+                    </svg>
+                  </div>
+                  <div class="col-sm">
+                    <h5>Ridiculously fast.</h5>
+                    <p class="mb-5">Django was designed to help developers take applications from concept to completion as quickly as possible.</p>
+                  </div>
+                </div>
+
+                <div class="row pt-5">
+                  <div class="col-sm-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class="bi bi-lock-fill bg-success rounded-circle mb-5" viewBox="3 -2 10 20">
+                      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                    </svg>
+                  </div>
+                  <div class="col-sm">
+                    <h5>Reassuringly secure.</h5>
+                    <p>Django takes security seriously and helps developers avoid many common security mistakes.</p>
+                  </div>
+                </div>
+
+                <div class="row pt-5">
+                  <div class="col-sm-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class="bi bi-speedometer bg-success rounded-circle mb-5" viewBox="3 -2 10 20">
+                      <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                      <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
+                    </svg>
+                  </div>
+                  <div class="col-sm">
+                    <h5>Exceedingly scalable.</h5>
+                    <p>Some of the busiest sites on the web leverage Django’s ability to quickly and flexibly scale.</p>
+                  </div>
+                </div>
+
+                <div class="row text-center border-bottom pb-5">
+                  <div class="col-sm-12">
+                    <button class="btn btn-outline-success py-3 px-5" type="button">
+                      <h5>Learn more about Django</h5>
+                    </button>
+                  </div><br><br>
+                </div>
+
+                <div class="row pt-5">
+                  <div class="col-12">
+                    <h2>Stay in the loop</h2><br>
+                    <p>Subscribe to one of our mailing lists to stay up to date with everything in the Django community:</p>
+                  </div>
+                </div>
+
+                <div class="row pt-3">
+                  <div class="col-sm-6">
+                    <div class="row">
+                      <div class="col-sm-11">
+                        <a href="#" class="text-decoration-none text-success">
+                          <h5>Using Django</h5>
+                        </a>
+                        <p class="fs-14">Get help with Django and follow announcements.</p>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Enter email" aria-label="email" aria-describedby="basic-addon1">
+                          <span class="input-group-text text-success bg-white" id="basic-addon1">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                              </svg>
+                            </a>
+                          </span>
+                        </div>
+                        <p class="pt-4 fs-14">You can also subscribe by sending an email to 
+                          <a href="#" class="text-decoration-none text-success">django-users+subscribe@googlegroups.com</a> and following the instructions that will be sent to you.</p>
+                      </div>
+                      <div class="col-sm-1"></div> 
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-6">
+                    <div class="row">
+                      <div class="col-sm-1"></div>
+                      <div class="col-sm-11">
+                        <a href="#" class="text-decoration-none text-success">
+                          <h5>Contributing to Django</h5>
+                        </a>
+                        <p class="fs-14">Contribute to the development of Django itself.</p>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Enter email" aria-label="email" aria-describedby="basic-addon1">
+                          <span class="input-group-text text-success bg-white" id="basic-addon1">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                              </svg>
+                            </a>
+                          </span>
+                        </div>
+                        <p class="pt-4 fs-14">Before asking a question about how to contribute, read 
+                          <a href="#" class="text-decoration-none text-success">Contributing to Django</a>. Many frequently asked questions are answered there.
+                        </p><hr>
+                        <p class="fs-14">You can also subscribe by sending an email to 
+                          <a href="#" class="text-decoration-none text-success">django-users+subscribe@googlegroups.com</a> and following the instructions that will be sent to you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row pt-3">
+                  <div class="col-sm-12">
+                    <p class="fs-16">We have a few other specialized lists (announce, i18n, ...). You can find more information about them in our <a href="#" class="text-success">mailing list documentation</a>.</p>
+                  </div>
+                </div>
+                    
+              </div>
+            </div>
+          </article>
+          <!-- ARTICLE END -->
+
+          <!-- ASIDE -->
+          <aside class="col-sm-4">
+            <div class="row text-center pt-5">
+              <div class="col-sm-10 offset-1">
+                <div class="d-grid">
+                  <button class="btn btn-success py-3" type="button">
+                    <h5>Download <span class="color">latest release: 4.x.x</span> </h5>
+                  </button>
+                </div>
+                <p class="pt-3 fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>DJANGO DOCUMENTATION ></strong>
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="row pt-1">
+              <div class="col-sm-10 offset-1">
+                <h4>Support Django!</h4><hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                      <a href="#" class="text-decoration-none text-success">Mark I. Cohen, Esq. donated to the Django Software Foundation to support Django development. Donate today!</a>
+                    </p>
+                  </div>
+                </div>
+                <h4 class="pt-3">Latest news</h4><hr>
+                
+                <p class="fs-16">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>Django bugfix release: 4.1.5</strong>
+                  </a>
+                </p>
+                <p class="fs-14">Today the Django project issued a bugfix release for the 4.1 release series.</p>
+                <p class="fs-14 text-secondary">Posted by <strong>Mariusz Felisiak</strong> on Ocak 2, 2023</p><hr>
+
+                <p class="fs-16">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>DjangoCon US and Europe 2022 Talks Available Online</strong>
+                  </a>
+                </p>
+                <p class="fs-14">All talks from DjangoCon US and DjangoCon Europe 2022 are now available online.</p>
+                <p class="fs-14 text-secondary">Posted by <strong>William Vincent</strong> Aralık 6, 2022</p>
+
+                <p class="fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>MORE NEWS ></strong>
+                  </a>
+                </p>
+
+                <h4 class="pt-3">New to Django?</h4><hr>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Installation guide
+                  </a>
+                </p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Write your first Django app
+                  </a>
+                </p>
+                <p class="fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>GETTING STARTED WITH DJANGO ></strong>
+                  </a>
+                </p>
+
+                <h4 class="pt-3">The power of Django</h4><hr>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Object-relational mapper
+                  </a>
+                </p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Automatic admin interface
+                  </a>
+                </p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Robust template system
+                  </a>
+                </p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg> Quick internationalization
+                  </a>
+                </p>
+                <p class="fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>EXPLORE MORE FEATURES ></strong>
+                  </a>
+                </p>
+
+                <h4 class="pt-3">Get involved</h4><hr>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Ticket system
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Report bugs and make feature requests</p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Development dashboard
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">see what's currently being worked on</p>
+                <p class="fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>EXPLORE MORE FEATURES ></strong>
+                  </a>
+                </p>
+
+                <h4 class="pt-3">Get Help</h4><hr>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    #django IRC channel
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Chat with other Django users</p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Django Discord Server
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Join the Django Discord Community</p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Official Django Forum
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Join the community on the Django Forum.</p>
+                
+                <h4 class="pt-3">The Django Software Foundation</h4><hr>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    About the Foundation
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Our non-profit supports the project</p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Support Django
+                  </a>
+                </p>
+                <p class="fs-14 text-secondary">Your contribution makes Django stronger</p>
+                <p class="fs-14">
+                  <a href="#" class="text-decoration-none text-success">
+                    Contact the Django Software Foundation
+                  </a>
+                </p>
+                <p class="fs-12">
+                  <a href="#" class="text-decoration-none text-success">
+                    <strong>MORE ABOUT THE DSF ></strong>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </aside>
+          <!-- ASIDE END -->
+        </div>
+      </main>
+      <!-- MAIN END -->
+
+      <!-- FOOTER -->
+      <div class="container-fluid">
+        <footer class="row text-center text-white bg-success py-5 border-top">
+          <div class="col mb-3">
+            <h5 class="pb-3">Learn More</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About Django</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Getting Started with Django</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Team Organization</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Django Software Foundation</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Code of Conduct</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Diversity Statement</a></li>
+            </ul>
+          </div>
+        
+          <div class="col mb-3">
+            <h5 class="pb-3">Get Involved</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Join a Group</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contribute to Django</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Submit a Bug</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Report a Security Issue</a></li>
+            </ul>
+          </div>
+        
+          <div class="col mb-3">
+            <h5 class="pb-3">Get Help</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Getting Help FAQ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">#django IRC channel</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Django Discord</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Official Django Forum</a></li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5 class="pb-3">Follow Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">GitHub</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitter</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News RSS</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Django Users Mailing List</a></li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5 class="pb-3">Support Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sponsor Django</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Official merchandise store</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Amazon Smile</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Benevity Workplace Giving Program</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <!-- FOOTER END -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
